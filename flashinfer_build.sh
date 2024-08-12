@@ -43,6 +43,6 @@ cd flashinfer/python
 export TORCH_CUDA_ARCH_LIST=$CUDA_ARCH
 pip install ninja numpy
 pip install --upgrade setuptools==69.5.1 wheel build
-python -m build --no-isolation
+python3 -m build --no-isolation
 
 echo "Build FlashInfer complete!"
